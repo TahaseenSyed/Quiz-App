@@ -1,16 +1,21 @@
-# quiz_app
+Quiz App
 
-A new Flutter project.
+Quiz App is an interactive mobile application built using Flutter that allows users to participate in quizzes on various topics, track their progress, and view their results. It provides a seamless and engaging experience with real-time scoring, customizable quizzes, and dynamic question handling.
 
-## Getting Started
+Folder Structure
+quiz_app/
+├── lib/
+│   ├── models/          # Contains data models (e.g., Question, Quiz)
+│   ├── screens/         # Different screens of the app (e.g., HomeScreen, QuizScreen)
+│   ├── widgets/         # Reusable UI components (e.g., QuestionWidget)
+│   ├── services/        # Handles backend services or API interactions
+│   ├── utils/           # Utility functions (e.g., timer, score calculations)
+│   └── main.dart        # Entry point of the app
+└── pubspec.yaml         # Flutter dependencies and project configuration
 
-This project is a starting point for a Flutter application.
+Contribution
+If you'd like to contribute to this project, please fork the repository and submit a pull request. Make sure to follow these guidelines:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Fork the repository.
+Create a new branch for each feature or bug fix.
+Ensure all tests pass before submitting a pull request.
